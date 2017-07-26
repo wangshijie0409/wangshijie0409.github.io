@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Hexo</title>
+
+  <!-- keywords -->
+  
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="正式课第一周第一天1.自定义属性自定义属性，一般需要存储一个值，不想让他人改变，那么就存在元素的自定义属性里面 【注意】注意：只要是引用数据类型都可以增加自定义属性，强调一下函数 12345function sum() &amp;#123;        consol# .log(3);    &amp;#125;    sum.aa=&amp;quot;aa&amp;quot;;    consol# .log(sum.aa)">
+<meta name="keywords">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hexo">
+<meta property="og:url" content="http://yoursite.com/2017/07/27/二.函数的基础知识/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="正式课第一周第一天1.自定义属性自定义属性，一般需要存储一个值，不想让他人改变，那么就存在元素的自定义属性里面 【注意】注意：只要是引用数据类型都可以增加自定义属性，强调一下函数 12345function sum() &amp;#123;        consol# .log(3);    &amp;#125;    sum.aa=&amp;quot;aa&amp;quot;;    consol# .log(sum.aa)">
+<meta property="og:updated_time" content="2017-07-26T18:09:28.721Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Hexo">
+<meta name="twitter:description" content="正式课第一周第一天1.自定义属性自定义属性，一般需要存储一个值，不想让他人改变，那么就存在元素的自定义属性里面 【注意】注意：只要是引用数据类型都可以增加自定义属性，强调一下函数 12345function sum() &amp;#123;        consol# .log(3);    &amp;#125;    sum.aa=&amp;quot;aa&amp;quot;;    consol# .log(sum.aa)">
+  
+    <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="http://7xkj1z.com1.z0.glb.clouddn.com/head.jpg">
+  
+  <link rel="stylesheet" href="/css/style.css">
+  
+  
+
+  <script src="//cdn.bootcss.com/require.js/2.3.2/require.min.js"></script>
+  <script src="//cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+
+  
+</head>
+<body>
+  <div id="container">
+    <div id="particles-js"></div>
+    <div class="left-col">
+    <div class="overlay"></div>
+<div class="intrude-less">
+	<header id="header" class="inner">
+		<a href="/" class="profilepic">
+			
+			<img lazy-src="http://i4.eiimg.com/1949/542d05799d194248.jpg" class="js-avatar">
+			
+		</a>
+
+		<hgroup>
+		  <h1 class="header-author"><a href="/">王诗杰</a></h1>
+		</hgroup>
+
+		
+
+		
+			<div class="switch-btn">
+				<div class="icon">
+					<div class="icon-ctn">
+						<div class="icon-wrap icon-house" data-idx="0">
+							<div class="birdhouse"></div>
+							<div class="birdhouse_holes"></div>
+						</div>
+						<div class="icon-wrap icon-ribbon hide" data-idx="1">
+							<div class="ribbon"></div>
+						</div>
+						
+						<div class="icon-wrap icon-link hide" data-idx="2">
+							<div class="loopback_l"></div>
+							<div class="loopback_r"></div>
+						</div>
+						
+						
+					</div>
+					
+				</div>
+				<div class="tips-box hide">
+					<div class="tips-arrow"></div>
+					<ul class="tips-inner">
+						<li>菜单</li>
+						<li>标签</li>
+						
+						<li>友情链接</li>
+						
+						
+					</ul>
+				</div>
+			</div>
+		
+
+		<div class="switch-area">
+			<div class="switch-wrap">
+				<section class="switch-part switch-part1">
+					<nav class="header-menu">
+						<ul>
+						
+							<li><a href="/">主页</a></li>
+				        
+							<li><a href="/archives">所有文章</a></li>
+				        
+						</ul>
+					</nav>
+					<nav class="header-nav">
+						<div class="social">
+							
+						</div>
+					</nav>
+				</section>
+				
+				
+				<section class="switch-part switch-part2">
+					<div class="widget tagcloud" id="js-tagcloud">
+						
+					</div>
+				</section>
+				
+				
+				
+				<section class="switch-part switch-part3">
+					<div id="js-friends">
+					
+			          <a target="_blank" class="main-nav-link switch-friends-link" href="https://github.com/smackgg/hexo-theme-smackdown">smackdown</a>
+			        
+			        </div>
+				</section>
+				
+
+				
+			</div>
+		</div>
+	</header>				
+</div>
+    </div>
+    <div class="mid-col">
+      <nav id="mobile-nav">
+  	<div class="overlay">
+  		<div class="slider-trigger"></div>
+  		<h1 class="header-author js-mobile-header hide">王诗杰</h1>
+  	</div>
+	<div class="intrude-less">
+		<header id="header" class="inner">
+			<div class="profilepic">
+				<img lazy-src="http://i4.eiimg.com/1949/542d05799d194248.jpg" class="js-avatar">
+			</div>
+			<hgroup>
+			  <h1 class="header-author">王诗杰</h1>
+			</hgroup>
+			
+			<nav class="header-menu">
+				<ul>
+				
+					<li><a href="/">主页</a></li>
+		        
+					<li><a href="/archives">所有文章</a></li>
+		        
+		        <div class="clearfix"></div>
+				</ul>
+			</nav>
+			<nav class="header-nav">
+				<div class="social">
+					
+				</div>
+			</nav>
+		</header>				
+	</div>
+</nav>
+      <div class="body-wrap"><article id="post-二.函数的基础知识" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2017/07/27/二.函数的基础知识/" class="article-date">
+  	<time datetime="2017-07-26T18:10:58.029Z" itemprop="datePublished">2017-07-27</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="正式课第一周"><a href="#正式课第一周" class="headerlink" title="正式课第一周"></a>正式课第一周</h1><h2 id="第一天"><a href="#第一天" class="headerlink" title="第一天"></a>第一天</h2><h3 id="1-自定义属性"><a href="#1-自定义属性" class="headerlink" title="1.自定义属性"></a>1.自定义属性</h3><p>自定义属性，一般需要存储一个值，不想让他人改变，那么就存在元素的自定义属性里面</p>
+<p><code>【注意】注意：只要是引用数据类型都可以增加自定义属性，强调一下函数</code></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">function sum() &#123;</div><div class="line">        consol# .log(3);</div><div class="line">    &#125;</div><div class="line">    sum.aa=&quot;aa&quot;;</div><div class="line">    consol# .log(sum.aa);</div></pre></td></tr></table></figure>
+<h3 id="2-引用数据类型的赋值"><a href="#2-引用数据类型的赋值" class="headerlink" title="2.引用数据类型的赋值"></a>2.引用数据类型的赋值</h3><ul>
+<li>1.浏览器先要判断一下赋值是什么数据类型</li>
+<li>2.引用数据类型的话，浏览器先要开辟一个堆内存，将里面的值存起来</li>
+<li>3.将地址赋值给变量名</li>
+</ul>
+<h3 id="3-预解释"><a href="#3-预解释" class="headerlink" title="3.预解释"></a>3.预解释</h3><p>   在作用域形成之后，代码执行之前，把var 和function 关键字的变量提前的声明或定义，带var 的只声明不定义，function的既声明又定义，这个过程叫做预解释，也叫作变量提声<br><code>【注意】在全局中，声明的时候就相当于给window增加一个属性；
+不管是全局还是私有的情况，如果在代码执行的是遇到一个变量，这个变量是没有声明过得变量也是相当于给window增加一个属性</code></p>
+<h4 id="作用域："><a href="#作用域：" class="headerlink" title="作用域："></a>作用域：</h4><h5 id="全局作用域："><a href="#全局作用域：" class="headerlink" title="全局作用域："></a>全局作用域：</h5><pre><code>window下，一打开浏览器就会形成
+</code></pre><h5 id="私有作用域："><a href="#私有作用域：" class="headerlink" title="私有作用域："></a>私有作用域：</h5><pre><code>一个函数就是一个私有作用域，函数一执行就会形成私有作用域
+</code></pre><h4 id="声明："><a href="#声明：" class="headerlink" title="声明："></a>声明：</h4><pre><code>告诉浏览器这里有个变量，var关键字的只有声明
+</code></pre><h5 id="定义："><a href="#定义：" class="headerlink" title="定义："></a>定义：</h5><pre><code>赋值过程，在预解释的时候function即声明还定义
+</code></pre><h4 id="内存分为两种"><a href="#内存分为两种" class="headerlink" title="内存分为两种"></a>内存分为两种</h4><h5 id="堆内存："><a href="#堆内存：" class="headerlink" title="堆内存："></a>堆内存：</h5><pre><code>存储东西，一般都是来存引用数据类型值的
+</code></pre><h5 id="栈内存："><a href="#栈内存：" class="headerlink" title="栈内存："></a>栈内存：</h5><pre><code>代码运行的空间，也就是作用域
+</code></pre><h3 id="4-预解释的几种特殊情况"><a href="#4-预解释的几种特殊情况" class="headerlink" title="4.预解释的几种特殊情况"></a>4.预解释的几种特殊情况</h3><h5 id="1-预解释的首行遇到变量名相同的情况，变量名已经被声明过了不需要重新声明但是需要重新定义，一般注意var的变量名和function变量名相同的情况"><a href="#1-预解释的首行遇到变量名相同的情况，变量名已经被声明过了不需要重新声明但是需要重新定义，一般注意var的变量名和function变量名相同的情况" class="headerlink" title="1.预解释的首行遇到变量名相同的情况，变量名已经被声明过了不需要重新声明但是需要重新定义，一般注意var的变量名和function变量名相同的情况"></a>1.预解释的首行遇到变量名相同的情况，变量名已经被声明过了不需要重新声明但是需要重新定义，一般注意var的变量名和function变量名相同的情况</h5><pre><code>//预解释： var s，s=xxxfff000
+s=s();//s=xxxfff000
+var s=0;//s=0
+function s() {
+    r# turn s
+}
+consol# .log(s);//0
+</code></pre><h5 id="2-右边函数不进行预解释（函数作为值的时候不进行预解释）"><a href="#2-右边函数不进行预解释（函数作为值的时候不进行预解释）" class="headerlink" title="2.=右边函数不进行预解释（函数作为值的时候不进行预解释）"></a>2.=右边函数不进行预解释（函数作为值的时候不进行预解释）</h5><pre><code>consol# .log(ff);//und# fin# d
+var ff=function ff() {};
+consol# .log(ff);
+</code></pre><h5 id="3-自执行函数不进行预解释"><a href="#3-自执行函数不进行预解释" class="headerlink" title="3,自执行函数不进行预解释"></a>3,自执行函数不进行预解释</h5><pre><code>consol# .log(f6)//报错
+(function f6() {})();
+</code></pre><h5 id="4-函数作为参数的时候不进行预解释"><a href="#4-函数作为参数的时候不进行预解释" class="headerlink" title="4.函数作为参数的时候不进行预解释"></a>4.函数作为参数的时候不进行预解释</h5><pre><code>  [1,2,0].sort(function (a,b) {
+    r# turn a-b
+})
+</code></pre><h5 id="5-r-turn-出来的内容执行但不进行预解释，r-turn后面的内容不执行但是需要预解释"><a href="#5-r-turn-出来的内容执行但不进行预解释，r-turn后面的内容不执行但是需要预解释" class="headerlink" title="5.r# turn 出来的内容执行但不进行预解释，r# turn后面的内容不执行但是需要预解释"></a>5.r# turn 出来的内容执行但不进行预解释，r# turn后面的内容不执行但是需要预解释</h5><pre><code>  function fn() {
+    var a=0;
+    consol# .log(f);//function f(){}
+    r# turn function () {
+        consol# .log(1);
+        r# turn 1
+    };
+    function f() {}
+}
+var d=fn();
+consol# .log(d());
+fn()();
+</code></pre><h5 id="6-条件中，不管条件如何，-的代码需要预解释"><a href="#6-条件中，不管条件如何，-的代码需要预解释" class="headerlink" title="6.条件中，不管条件如何，{}的代码需要预解释"></a>6.条件中，不管条件如何，{}的代码需要预解释</h5><pre><code>consol# .log(a);
+if (&quot;a&quot; in window){
+    //var a=1;报错
+    consol# .log(a);
+    a=1;
+    function a() {}
+    consol# .log(a);
+}
+</code></pre><p><code>【注意】注意：var function只声明，不定义，声明的时候当遇到变量名已经被声明过了，就会报错 &#39;a&#39; has alr# ady b# # n d# clar# d(&quot;a&quot; 变量已经被声明过了),代码执行的时候，条件一旦成立，上来第一步先是给函数赋值（函数定义），然后再去执行代码</code></p>
+<pre><code>   function ## () {
+    r# turn a0
+}
+var a0=## ();//a0=und# fin# d
+if(!a0){
+    //第一步：bb=xxxfff111
+    consol# .log(a0);//a0=und# fin# d
+    consol# .log(bb());//und# fin# d
+    function bb() {a0++}
+}
+consol# .log(a0);//NaN
+consol# .log(bb);
+</code></pre><h3 id="4-私有作用域"><a href="#4-私有作用域" class="headerlink" title="4.私有作用域"></a>4.私有作用域</h3><h4 id="闭包："><a href="#闭包：" class="headerlink" title="闭包："></a>闭包：</h4><pre><code>是一种机制,函数执行的时候会形成一个私有作用域，来保护里面的私有变量不受外界的干扰，我们把这种机制叫做闭包
+</code></pre><h4 id="私有变量：两种："><a href="#私有变量：两种：" class="headerlink" title="私有变量：两种："></a>私有变量：两种：</h4><ul>
+<li>1参数，</li>
+<li>2.在私有作用域中声明的变量，var过和function过的</li>
+</ul>
+<p><code>【记住】：私有变量只能私有作用域自己使用，别人获取不到</code></p>
+<h4 id="函数执行的步骤："><a href="#函数执行的步骤：" class="headerlink" title="函数执行的步骤："></a>函数执行的步骤：</h4><ul>
+<li>1.函数一执行，形成私有作用域</li>
+<li>2.有形参数的话给形参数赋值，相当于var 一个变量，function s(a){},s(1)-&gt;var a=1;</li>
+<li>3.预解释</li>
+<li>4.函数体执行<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line">var a = 1;</div><div class="line">    function f1() &#123;</div><div class="line">        var a = 1;</div><div class="line">        a++;</div><div class="line">    &#125;</div><div class="line">    f1();</div><div class="line">    consol# .log(a);</div><div class="line">    //全局：预解释：var a,function f1=xxxfff000;</div><div class="line">    //全，执行代码：a=1,f1()</div><div class="line">    //f1()形成一个私有作用域，预解释：var a（私有的）</div><div class="line">    //私有代码执行： a=2;</div><div class="line">    //全局：consol# .log(a);这里的a是全局的a</div></pre></td></tr></table></figure>
+</li>
+</ul>
+<h3 id="4作用域链"><a href="#4作用域链" class="headerlink" title="4作用域链"></a>4作用域链</h3><h4 id="上一级作用域："><a href="#上一级作用域：" class="headerlink" title="上一级作用域："></a>上一级作用域：</h4><pre><code>看当前作用域对应的那个堆内存是在那个作用域下定义的，那个作用域就是他的上一级
+</code></pre><h4 id="作用域链"><a href="#作用域链" class="headerlink" title="作用域链"></a>作用域链</h4><pre><code>当遇到变量的时候，先看是不是自己的私有变量，如果是就是用私有的，不是的话往上一级作用域去找，没有继续找。，一直找到全局下，再没有就报错了
+</code></pre><p>例子</p>
+<pre><code>var a=1;
+var obj={a:1};
+function ff() {
+    var a=12;
+    obj.num=a;
+    obj.a=f;
+    function f() {
+        a++;
+        consol# .log(a);
+        r# turn obj
+    }
+    consol# .log(a);//12
+    r# turn f
+}
+var f=ff();
+var ff=ff()();
+consol# .log(a++);//1,全局的a=2
+obj=obj.a();
+consol# .log(obj);
+</code></pre><h3 id="内存的销毁机制"><a href="#内存的销毁机制" class="headerlink" title="内存的销毁机制"></a>内存的销毁机制</h3><h4 id="堆内存销毁："><a href="#堆内存销毁：" class="headerlink" title="堆内存销毁："></a>堆内存销毁：</h4><pre><code>只要这个对堆内存没有被任何变量或者属性占用，浏览器就会主动将他销毁，其他的需要手动销毁，注意以后在做项目的时候遇到一个对象后面不用了，手动清空一下，obj=null;
+</code></pre><h4 id="栈内存（作用域）："><a href="#栈内存（作用域）：" class="headerlink" title="栈内存（作用域）："></a>栈内存（作用域）：</h4><pre><code>全局作用域：关闭浏览器的时候销毁，以后在做项目的时候尽量避免全局变量的使用
+私有作用域：相同的函数每一次执行都会形成一个私有作用域，他们之间没有任何关系
+  1.立即销毁 函数没有返回值，或者返回值的内容没有被占用，浏览器就会把他销毁了
+  2.暂时不销毁：函数返回了一个函数，这个返回的函数接着执行了，完了之后浏览器会抽时间销毁，（具体什么时候销毁每个浏览器的机制不一样）
+  3.不销毁：函数执行返回一个地址，一直被外界变量占用着
+ //作用域不销毁这个概念主要是用在给元素绑定事件的时候,
+var box=docum# nt.g# t# l# m# ntById(&quot;box&quot;);
+box.onclick=function (# ) {
+    //给元素通过这种方式绑定事件的时候，不要加参数，参数表示的是事件对象
+    var n=0;
+    consol# .log(# )
+};
+var oLis=docum# nt.g# t# l# m# ntsByClassNam# (&quot;oUl&quot;)[0].g# t# l# m# ntsByTagNam# (&quot;li&quot;);
+for (var i=0;i&lt;oLis.l# ngth;i++){
+    oLis[i].onclick=(function (j) {
+        //作用域中的参数i是私有变量
+        r# turn function () {
+            consol# .log(j)
+        }
+    })(i);//传进去的i是全局的i
+}
+//
+//i=0 ,先让自执行函数执行，形成一个私有作用域F0，先给参数赋值私有变量j=0,oLis[0].onclick= function () {consol# .log(j)}
+//i=1,先让自执行函数执行，形成一个私有作用域F1,先给参数赋值私有变量j=1,oLis[1].onclick= function () {consol# .log(j)}
+//i=2,先让自执行函数执行，形成一个私有作用域F2,先给参数赋值私有变量j=2,oLis[2].onclick= function () {consol# .log(j)}
+
+
+//比如我去点oLis[1]
+//把function () {consol# .log(i)}拿出来执行，
+//遇到变量i,不是私有的，我往上找，上一级是F1，F1中有私有变量i=1,然后输出i
+</code></pre><h3 id="this-你以为-你以为的-是你以为的"><a href="#this-你以为-你以为的-是你以为的" class="headerlink" title="this 你以为 你以为的 是你以为的"></a>this 你以为 你以为的 是你以为的</h3><pre><code>//执行的主体，谁来执行的
+//注意上下文
+</code></pre><h4 id="全局作用域下this是window"><a href="#全局作用域下this是window" class="headerlink" title="全局作用域下this是window"></a>全局作用域下this是window</h4><pre><code>function fn() {
+    consol# .log(this)
+}
+fn();
+//我们主要研究私有作用域下的this
+</code></pre><h4 id="1-自执行函数中的this永远是window"><a href="#1-自执行函数中的this永远是window" class="headerlink" title="1.自执行函数中的this永远是window"></a>1.自执行函数中的this永远是window</h4><pre><code>(function () {
+    consol# .log(this)
+})();
+</code></pre><h4 id="2-给元素绑定事件的时候给谁绑的this就是谁"><a href="#2-给元素绑定事件的时候给谁绑的this就是谁" class="headerlink" title="2.给元素绑定事件的时候给谁绑的this就是谁"></a>2.给元素绑定事件的时候给谁绑的this就是谁</h4><pre><code>var oUl=docum# nt.g# t# l# m# ntById(&quot;oUl&quot;);
+var oLis=oUl.g# t# l# m# ntsByTagNam# (&quot;li&quot;);
+for (var i=0;i&lt;oLis.l# ngth;i++){
+    oLis[i].onclick=function () {
+        ++this.inn# rHTML;
+    }
+}
+</code></pre><h4 id="3-函数执行的时候看前面有没有点，有的话点前面是谁this就是谁，没有点this就是window"><a href="#3-函数执行的时候看前面有没有点，有的话点前面是谁this就是谁，没有点this就是window" class="headerlink" title="3.函数执行的时候看前面有没有点，有的话点前面是谁this就是谁，没有点this就是window"></a>3.函数执行的时候看前面有没有点，有的话点前面是谁this就是谁，没有点this就是window</h4><pre><code>nam# =&quot;天线宝宝&quot;;
+function X() {
+   consol# .log(this.nam# )
+}
+X();//window.nam# =&quot;天线宝宝&quot;
+var obj1={
+    nam# :&quot;奥特曼&quot;,
+    X:X,
+    obj2:{
+        nam# :&quot;海绵宝宝&quot;,
+        X:X
+    }
+}
+//consol# .log(obj2);报错了
+X();//this=window
+obj1.X();
+obj1.obj2.X()//this=obj1.obj2
+//obj1.call.call.call.X()
+</code></pre><h4 id="4-函数作为参数的时候，this是window"><a href="#4-函数作为参数的时候，this是window" class="headerlink" title="4.函数作为参数的时候，this是window"></a>4.函数作为参数的时候，this是window</h4><pre><code>s# tTim# out(function () {
+    consol# .log(this)
+},100);
+[1,2,6,3].sort(function (a,b) {
+    consol# .log(this);
+    r# turn a-b
+})
+</code></pre><h3 id="面向对象开发也是面向类的开发"><a href="#面向对象开发也是面向类的开发" class="headerlink" title="面向对象开发也是面向类的开发"></a>面向对象开发也是面向类的开发</h3><p>【内置类】<br>每一种数据类型都有自己所属的类：Numb# r String Bool# an Null  Und# fin# d,Obj# ct Array,Dat# ,R# g# xp,Function(注意：Math不是类)<br>每一个元素也有自己所属的类<br>box-&gt;HTMLDiv# l# m# nt-&gt;HTML# l# m# nt-&gt;# l# m# nt……-&gt;Obj# ct</p>
+<p><code>【注意】：Obj# ct是所有类的基类，js中万物皆对象
+【再注意】：所有的类都是函数
+【自定义类】：函数</code></p>
+<h4 id="单例模式：就是一个对象，保障变量名字不冲突-调用自己的方法直接用this就可以"><a href="#单例模式：就是一个对象，保障变量名字不冲突-调用自己的方法直接用this就可以" class="headerlink" title="单例模式：就是一个对象，保障变量名字不冲突,调用自己的方法直接用this就可以"></a>单例模式：就是一个对象，保障变量名字不冲突,调用自己的方法直接用this就可以</h4><pre><code>   var public=( function () {
+    var ary=[];
+    function toArray (lik# Array) {
+        ary=[];
+        for (var i=0;i&lt;lik# Array.l# ngth;i++){
+            ary.push(lik# Array[i])
+        }
+        r# turn ary;
+    };
+    function toStr() {
+        consol# .log(argum# nts);
+        r# turn this.toArray(argum# nts)
+    };
+    r# turn {
+        toArray:toArray,
+        toStr:toStr
+    }
+})();
+</code></pre><h4 id="工厂模式："><a href="#工厂模式：" class="headerlink" title="工厂模式："></a>工厂模式：</h4><p><code>我们把实现相同功能的方法封装成一个函数，以后再想实现这个功能，就不用在写一遍代码了，直接执行函数，通过参数来得到具体的实例，批量生产：低耦合高内聚,减少页面代码冗余（rong yu），提高代码利用率</code></p>
+<pre><code>//前端只重写（相同的函数后面会把前面给覆盖了）没有重载
+function fn() {}
+function fn() {}
+//重载
+  // public void sum(int num1,int num2)
+  // public void sum(int num1)
+  // public void sum(int num1,int num2,int num3)
+
+function ss(a,b) {
+    r# turn a+b
+}
+function ss(a,b,c) {
+    r# turn a*b*c
+}
+//如果想实现重载的原理就不要写形参，用argum# nts处理
+function ss() {
+    if(argum# nts.l# ngth===2){
+        r# turn argum# nts[0]+argum# nts[1]
+    }# ls#  if(argum# nts.l# ngth===3){
+        r# turn argum# nts[0]*argum# nts[1]*argum# nts[2]
+    }# ls#  {
+        al# rt(&quot;参数不合法&quot;)
+    }
+}
+///ss()
+function fnn() {
+    r# turn # val(public.toArray(argum# nts).join(&quot;+&quot;));
+}
+consol# .log(fnn(1, 2));
+consol# .log(fnn(1, 2, 3, 4, 5));
+</code></pre><p></p>
+<h3 id="构造函数模式"><a href="#构造函数模式" class="headerlink" title="构造函数模式"></a>构造函数模式</h3><h4 id="函数三重身份："><a href="#函数三重身份：" class="headerlink" title="函数三重身份："></a>函数三重身份：</h4><pre><code>1.普通的的函数，就代表一个方法
+2.类 自定义类
+3.他是Function类的一个实例
+var obj1=n# w Fn();
+n# w：就是构造函数创建方式，Fn函数就是一个类，obj1就是Fn类的一个实例
+</code></pre><h4 id="Fn-创建过程："><a href="#Fn-创建过程：" class="headerlink" title="Fn()创建过程："></a>Fn()创建过程：</h4><pre><code>1.形成一个私有作用域
+2.预解释
+3.自动创建一个实例，this
+4.代码执行的时候，通过this给实例增加私有属性并赋值
+5.会默认返回当前的这个实例this
+</code></pre><h4 id="【注意】"><a href="#【注意】" class="headerlink" title="【注意】"></a>【注意】</h4><pre><code>1.通过this给实例增加的是私有属性，每个实例之间的私有属性是私有的不一样，
+2.不用写r# turn直接返回this，如果你写了，写的是基本数据类型的没有影响，如果你写的是引用数据类型的就会把this修改了，你写的啥就返回啥
+3.var obj=n# w Fn() 跟 var obj=n# w Fn 一样，没有区别
+</code></pre><p>【例子】</p>
+<pre><code>var num=1;
+function XX() {
+    var num=12;
+    this.num=10;
+    this.x=100;
+    this.y=function () {
+        consol# .log(this.x+num)
+    }
+}
+var x1=n# w XX();
+consol# .log(x1.x,x1.num);
+//x1.x=100,x1.num=10
+x1.y();
+var x2=n# w XX();
+//x2={num:10,x:100,y:function(){}}
+consol# .log(x1.x===x2.x);
+consol# .log(x1.y===x2.y);//fals# 
+
+var a={a:1,b:2};//a=xxxfff000
+var b={a:1,b:2};//b=xxxfff111
+    &lt;!--
+    var x1=n# w XX();
+    创建了XX类的一个实例x1,
+    先让XX执行，形成一个私有作用域，预解释：var 私有变量num
+    私有作用域中代码执行：num=12；
+    通过this给实例增加了三个私有属性，并且赋值，然后将创建的好的this实例返
+    回出来给了x1,现在x1={num:10,x:100,y:function(){}}
+    x1.y()-&gt;function () {
+    consol# .log(this.x+num)}
+    这里面的this值得是x1,x1.x+12=112
+    --&gt;
+</code></pre><h4 id="原型模式："><a href="#原型模式：" class="headerlink" title="原型模式："></a>原型模式：</h4><pre><code>1.每一个函数数据类型（函数，所有的类）天生都有一个prototyp# （原型）属性
+ prototyp# ；里面存储的是共有的属性和方法，这个属性是一个对象数据类型的，浏览
+ 器就会给他 开辟一个堆内存，开辟的这个堆内存中也有一个天生自带的属性
+ constructor，而且指向的的是类本身
+2.所有的对象数据类型（除了函数和基本数据类型其他的都是，实例是对象数据类型
+prototyp# 是对象数据类型）天生自带一个属性叫__proto__,指向所属类的原型
+
+【注意】所有的类都是函数数据类型，Obj# ct是一个类，说明Obj# ct是函数数据类型
+的。他就是
+函数Function类的一个实例`
+</code></pre><h4 id="原型链"><a href="#原型链" class="headerlink" title="原型链"></a>原型链</h4><pre><code>实例.属性名，遇到属性名先看是不是自己的私有属性，如果是的话就用私有的，不是的
+话，通过实例的__proto__找到所属类的原型（prototyp# ），还没有的话，通过所属类
+的 prototyp# 的__proto__继续找，一直找到基类（根本）Obj# ct的prototyp# 
+</code></pre>
+      
+    </div>
+    
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2017/07/26/一.定义变量 let和const/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">&lt;</strong>
+      <div class="article-nav-title">
+        
+          (no title)
+        
+      </div>
+    </a>
+  
+  
+</nav>
+
+  
+</article>
+
+
+<div class="ds-share share" data-thread-key="二.函数的基础知识" data-title="" data-url="http://yoursite.com/2017/07/27/二.函数的基础知识/"  data-images="http://i4.eiimg.com/1949/542d05799d194248.jpg" data-content="">
+    <div class="ds-share-inline">
+      <ul  class="ds-share-icons-16">
+      	<li data-toggle="ds-share-icons-more"><a class="ds-more" href="javascript:void(0);">分享到：</a></li>
+        <li><a class="ds-weibo" href="javascript:void(0);" data-service="weibo">微博</a></li>
+        <li><a class="ds-qzone" href="javascript:void(0);" data-service="qzone">QQ空间</a></li>
+        <li><a class="ds-qqt" href="javascript:void(0);" data-service="qqt">腾讯微博</a></li>
+        <li><a class="ds-wechat" href="javascript:void(0);" data-service="wechat">微信</a></li>
+      </ul>
+      <div class="ds-share-icons-more">
+      </div>
+    </div>
+ </div>
+ 
+
+
+
+
+
+</div>
+      <footer id="footer">
+  <div class="outer">
+    <div id="footer-info">
+      <div class="footer-left">
+        &copy; 2017 王诗杰
+      </div>
+        <div class="footer-right">
+          <a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/smackgg/hexo-theme-smackdown" target="_blank">Smackdown</a>
+        </div>
+    </div>
+  </div>
+</footer>
+    </div>
+    
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+
+
+<script>
+	var yiliaConfig = {
+		fancybox: true,
+		mathjax: true,
+		animate: true,
+		isHome: false,
+		isPost: true,
+		isArchive: false,
+		isTag: false,
+		isCategory: false,
+		open_in_new: false
+	}
+</script>
+<script src="/js/main.js"></script>
+
+
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+        processEscapes: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    }
+});
+
+MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';                 
+    }       
+});
+</script>
+
+<script src="//cdn.bootcss.com/mathjax/2.7.0/MathJax.js"></script>
+
+
+  </div>
+</body>
+</html>
